@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+  width: 100%;
+  height: 85vh;
+  color: #fff;
+  background: linear-gradient(45deg,red,blue,green,black);
+  background-size: 400% 400%;
+  position: relative;
+  animation: cambiar 10s ease-in-out infinite;
+}
+h1{
+  font-size: 2rem;
+  letter-spacing: 1px;
+  border: solid 3px #ffffff;
+  border-radius: 15px;
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  padding: 2rem 3rem;
+}
+.h2{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    border: solid 3px #ffffff;
+    border-radius: 15px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 2rem 3rem;
+  }
+  .h3{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    border: solid 3px #ffffff;
+    border-radius: 15px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 2rem 3rem;
+  }
+
+@keyframes cambiar{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+}
+

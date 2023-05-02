@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+section{
+    width: 100%;
+    height: 85vh;
+    color: #fff;
+    background: linear-gradient(45deg,red,blue,green,black);
+    background-size: 400% 400%;
+    position: relative;
+    animation: cambiar 10s ease-in-out infinite;
+}
+h1{
+    font-size: 2rem;
+    letter-spacing: 1px;
+    border: solid 3px #ffffff;
+    border-radius: 15px;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 2rem 3rem;
+}
+.h2{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    border: solid 3px #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+    transform: translate(-50%,-50%);
+    padding: 2rem 3rem;
+}
+.h3{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    border: solid 3px #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+    padding: 2rem 3rem;
+}
+.h4{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    border: solid 3px #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    top: 40%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+    padding: 2rem 3rem;
+}
+.h{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    border: solid 3px #ffffff;
+    border-radius: 10px;
+    position: absolute;
+    top: 40%;
+    left: 15.6%;
+    transform: translate(-50%,-50%);
+    padding: 2rem 3rem;
+}
+.agua{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 50%;
+    left: 10%;
+}
+.brocha{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 50%;
+    left: 20%;
+}
+.foco{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 50%;
+    left: 35%;
+}
+.otros{
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 50%;
+    left: 45%;
+}
+@keyframes cambiar{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+}

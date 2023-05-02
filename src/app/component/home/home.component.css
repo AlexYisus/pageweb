@@ -24,6 +24,7 @@ h1{
   padding: 2rem 3rem;
 }
 .fondo{
+  background-image: url(https://github.com/AlexYisus/pageweb/blob/master/src/assets/images/fondo2.jpg);
   position: absolute;
   width: 100%;
   top: 0%;
